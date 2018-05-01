@@ -1,0 +1,1 @@
+$(document).ready(function(){$("a[href^='#']").click(function(t){t.preventDefault();var e=$($(this).attr("href")).offset().top-71;$("body, html").animate({scrollTop:e},1e3)})});

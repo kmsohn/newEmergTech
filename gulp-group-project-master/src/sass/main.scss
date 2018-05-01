@@ -1,0 +1,30 @@
+/*Main Styles*/
+$offWht : #eeeeee;
+$redOrange : #cf4647;
+body{
+    width:100%;
+    text-align:center;
+    background:$redOrange;
+    color:$offWht;
+    h1 {
+        font-size:2.7em;
+        img {
+            vertical-align:middle;
+            width:200px;
+        }
+    }
+    #myDIV {
+        margin:0 auto;
+        width:400px;
+        padding:2%;
+        border-radius:10px;
+        background-color:rgba(0, 0, 0, .4);
+        transform:translateY(50px);
+        font-size:1.3em;
+        letter-spacing:.03em;
+        h2 {
+            font-size:2em;
+        }
+    }
+}
+ 
